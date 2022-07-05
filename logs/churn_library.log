@@ -1,0 +1,54 @@
+root - INFO - Testing import_data: SUCCESS
+root - INFO - REMOVING OLD FILES INSIDE
+root - INFO - File null_values.csv was found: SUCCESS
+root - INFO - File desc_data.csv was found: SUCCESS
+root - INFO - File churn_distribution.png was found: SUCCESS
+root - INFO - File customer_age_distribution.png was found: SUCCESS
+root - INFO - File total_transaction_distribution.png was found: SUCCESS
+root - INFO - File martial_status_distribution.png was found: SUCCESS
+root - INFO - File heatmap.png was found: SUCCESS
+numexpr.utils - INFO - NumExpr defaulting to 6 threads.
+root - INFO - Perform EDA: SUCCESS
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file churn_distribution.png was created
+root - INFO - The file desc_data was created
+root - INFO - The file total_transaction_distribution.png was created
+root - INFO - The file null_values was created
+root - INFO - The file customer_age_distribution.png was created
+root - INFO - The file martial_status_distribution.png was created
+root - INFO - The file heatmap.png was created
+root - INFO - The Churn column was created: SUCCESS
+root - INFO - Encoder Helper: SUCCESS
+root - INFO - TEST: Running perform feature engineering
+root - INFO - TEST: Perform feature engineering: SUCCESS
+root - INFO - TEST: Perform feature engineering train output
+root - INFO - Train size: SUCCESSS
+root - INFO - TEST: Perform feature engineering train output
+root - INFO - Test size: SUCCESSS
+root - INFO - REMOVING OLD FILES INSIDE
+root - INFO - File feature_importance_rf.png was found: SUCCESS
+root - INFO - File logistic_regression_classification_report.png was found: SUCCESS
+root - INFO - File random_forest_classification_report.png was found: SUCCESS
+root - INFO - File roc_curve_result.png was found: SUCCESS
+root - INFO - REMOVING OLD FILES INSIDE
+root - INFO - File logistic_model.pkl was found: SUCCESS
+root - INFO - File rfc_model.pkl was found: SUCCESS
+root - INFO - Running necessary functions for train_models
+root - INFO - Importing the Data
+root - INFO - Import data: SUCCESS
+root - INFO - Perfoming the feature engineering
+root - INFO - Perform feature engineering: SUCCESS
+root - INFO - Run train_models
+root - INFO - Test train_models: SUCCESS
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file random_forest_classification_report.png was created
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file logistic_regression_classification_report.png was created
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file feature_importance_rf.png was created
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file roc_curve_result.png was created
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file logistic_model.pkl was created
+root - INFO - Testing perform eda: SUCCESS
+root - INFO - The file rfc_model.pkl was created
