@@ -75,7 +75,7 @@ def test_eda():
                 file.replace(
                     '.csv', ''))
 
-    except FileNotFoundError:
+    except AssertionError:
         missing_files = [*set(ct.EDA_FILES) - set(create_files)]
         for miss_file in missing_files:
             logging.error(
@@ -195,7 +195,7 @@ def test_train_models():
             logging.info(
                 "The file %s was created",
                 expected_files)
-        except FileNotFoundError:
+        except AssertionError:
             logging.error(
                 'File %s could not be found', expected_files)
 
